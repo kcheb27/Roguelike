@@ -1,0 +1,16 @@
+.TextBody{
+    background-color: #cdcccc;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    min-height: 400px;
+    min-width: 500px;
+
+    
+
+}
+.TextBody:hover {
+    background-color: #b3b3b3; /* Change background color on hover */
+    border-color: #555555; /* Change border color on hover */
+    transform: scale(1.02); /* Add a slight scale-up effect on hover */
+  }

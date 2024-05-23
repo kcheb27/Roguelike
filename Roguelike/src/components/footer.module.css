@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center;
+    background-color: #cdcccc;
+    height: 70px;
+    border-radius: 5px;
+    padding: 0 20px; /* Adds horizontal padding */
+    width: 100%; /* Ensures the footer spans the full width of the container */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+@media (max-width: 600px) {
+    footer {
+        flex-direction: column; /* Stacks items vertically on small screens */
+        height: auto; /* Adjusts height to fit content */
+        padding: 10px; /* Adds padding on smaller screens */
+    }
+}

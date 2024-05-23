@@ -1,0 +1,31 @@
+.title{
+    background-color: #cdcccc;
+    margin-top: 20px;
+    color: #595454;
+    text-align: center;
+
+}
+.Body {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    color: #595454;
+    justify-content: center;
+}
+
+.Body > * {
+    flex: 0 0 calc(33.33% - 20px);
+    margin: 10px;
+    max-width: calc(33.33% - 20px);
+}
+
+.link{
+    background-color: #cdcccc;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #595454;
+    flex-wrap: wrap;
+    font-size: small;
+}

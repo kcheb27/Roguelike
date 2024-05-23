@@ -1,0 +1,52 @@
+.Card{
+    border: 1px solid #595454;
+    border-radius: 10px;
+    padding:20px;
+    margin:10px;
+    text-align: center;
+    max-width: 250px;
+    height: 270px;
+    display: inline-block;
+    background-color:#cdcccc;
+    /*box-shadow: 5px 5px 5px rgb(160, 160, 160); */
+    
+
+}
+.Card:hover {
+    background-color: #b3b3b3; /* Change the background color on hover */
+    box-shadow: 5px 5px 5px rgb(160, 160, 160);
+}
+
+.Image{
+    max-width: 70%;
+    height:auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #595454;
+  }
+.link{
+    text-decoration: none;
+    color: #595454;;
+}
+.Title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color:#595454;;
+}
+.Text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    color: #595454;;
+    font-size: smaller;
+}
+.subText{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8f8e8e;
+    margin: 0;
+    font-size: x-small;
+}
+.border{
+    border: 1px solid #595454;
+    border-radius: 5px;
+    margin: 0;
+}
